@@ -2,16 +2,16 @@
 StudyBud is a web-based platform built with Django and Django REST Framework where users can create chat rooms, exchange real-time messages, and manage their profiles.
 
 ## Features
-- **User Authentication: Register, log in, and log out functionalities using Django's authentication system.
-- **Chat Rooms: Create new chat rooms with topics and descriptions.
-- **Messaging: Real-time messaging within chat rooms, displaying user information and timestamps.
-- **Profile Management: View and update user profiles, including username and email.
+- User Authentication: Register, log in, and log out functionalities using Django's authentication system.
+- Chat Rooms: Create new chat rooms with topics and descriptions.
+- Messaging: Real-time messaging within chat rooms, displaying user information and timestamps.
+- Profile Management: View and update user profiles, including username and email.
 
 ## Technology Stack
-- **Backend: Django (Python)
-- **REST API: Django REST Framework
-- **Frontend: HTML, CSS
-- **Database: SQLite
+- Backend: Django (Python)
+- REST API: Django REST Framework
+- Frontend: HTML, CSS
+- Database: SQLite
 
 ## mInstallation
 1)Clone the repository:
@@ -41,9 +41,9 @@ StudyBud is a web-based platform built with Django and Django REST Framework whe
 -static/: Directory for static files like CSS and images.
 
 ## API Endpoints
-- **GET /api/rooms/: Retrieve all chat rooms.
-- **POST /api/create-room/: Create a new chat room.
-- **GET /api/room/<id>/: Retrieve details of a specific chat room.
+- GET /api/rooms/: Retrieve all chat rooms.
+- POST /api/create-room/: Create a new chat room.
+- GET /api/room/<id>/: Retrieve details of a specific chat room.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
